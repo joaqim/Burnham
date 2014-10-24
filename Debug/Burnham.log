@@ -1,0 +1,29 @@
+﻿Build started 10/24/2014 10:57:54 PM.
+     1>Project "D:\Visual Studio Projects\graphicsTutorials\Burnham\Burnham.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt source\Bengine\Burnham.cpp
+         Burnham.cpp
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Visual Studio Projects\graphicsTutorials\Debug\Burnham.lib" /NOLOGO Debug\Burnham.obj
+         Debug\Camera2D.obj
+         Debug\Errors.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\main.obj
+         Debug\picoPNG.obj
+         Debug\ResourceManager.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\TextureCache.obj
+         Debug\Timing.obj
+         Debug\Window.obj
+         Burnham.vcxproj -> D:\Visual Studio Projects\graphicsTutorials\Debug\Burnham.lib
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\Visual Studio Projects\graphicsTutorials\Debug\Burnham.bsc" /n Debug\Burnham.sbr Debug\Camera2D.sbr Debug\Errors.sbr Debug\GLSLProgram.sbr Debug\ImageLoader.sbr Debug\InputManager.sbr Debug\IOManager.sbr Debug\main.sbr Debug\picoPNG.sbr Debug\ResourceManager.sbr Debug\Sprite.sbr Debug\SpriteBatch.sbr Debug\TextureCache.sbr Debug\Timing.sbr Debug\Window.sbr
+     1>Done Building Project "D:\Visual Studio Projects\graphicsTutorials\Burnham\Burnham.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66
