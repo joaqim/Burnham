@@ -1,59 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="source\Bengine\Burnham.h">
+    <ClInclude Include="LuaManager.h" />
+    <ClInclude Include="source\Burnham\Burnham.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\Errors.h">
+    <ClInclude Include="source\Burnham\Camera2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\Camera2D.h">
+    <ClInclude Include="source\Burnham\Errors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\GLSLProgram.h">
+    <ClInclude Include="source\Burnham\GLSLProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\GLTexture.h">
+    <ClInclude Include="source\Burnham\GLTexture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\ImageLoader.h">
+    <ClInclude Include="source\Burnham\ImageLoader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\InputManager.h">
+    <ClInclude Include="source\Burnham\InputManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\IOManager.h">
+    <ClInclude Include="source\Burnham\IOManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\picoPNG.h">
+    <ClInclude Include="source\Burnham\picoPNG.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\ResourceManager.h">
+    <ClInclude Include="source\Burnham\ResourceManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\Sprite.h">
+    <ClInclude Include="source\Burnham\Sprite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\SpriteBatch.h">
+    <ClInclude Include="source\Burnham\SpriteBatch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\TextureCache.h">
+    <ClInclude Include="source\Burnham\TextureCache.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\Timing.h">
+    <ClInclude Include="source\Burnham\Timing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\Vertex.h">
+    <ClInclude Include="source\Burnham\Vertex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\Bengine\Window.h">
+    <ClInclude Include="source\Burnham\Window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Burnham">
-      <UniqueIdentifier>{12f8edc6-8506-4af7-9508-bf3758d7192f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{b665071d-5570-4e86-9863-965a73e3d433}</UniqueIdentifier>
     </Filter>
@@ -62,49 +60,47 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\Bengine\Burnham.cpp">
+    <ClCompile Include="LuaManager.cpp" />
+    <ClCompile Include="source\Burnham\Burnham.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\Camera2D.cpp">
+    <ClCompile Include="source\Burnham\Camera2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\Errors.cpp">
+    <ClCompile Include="source\Burnham\Errors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\GLSLProgram.cpp">
+    <ClCompile Include="source\Burnham\GLSLProgram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\ImageLoader.cpp">
+    <ClCompile Include="source\Burnham\ImageLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\InputManager.cpp">
+    <ClCompile Include="source\Burnham\InputManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\IOManager.cpp">
+    <ClCompile Include="source\Burnham\IOManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\main.cpp">
+    <ClCompile Include="source\Burnham\picoPNG.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\picoPNG.cpp">
+    <ClCompile Include="source\Burnham\ResourceManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\ResourceManager.cpp">
+    <ClCompile Include="source\Burnham\Sprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\Sprite.cpp">
+    <ClCompile Include="source\Burnham\SpriteBatch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\SpriteBatch.cpp">
+    <ClCompile Include="source\Burnham\TextureCache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\TextureCache.cpp">
+    <ClCompile Include="source\Burnham\Timing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\Bengine\Timing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\Bengine\Window.cpp">
+    <ClCompile Include="source\Burnham\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

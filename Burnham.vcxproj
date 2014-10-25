@@ -85,39 +85,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="source\Bengine\Burnham.h" />
-    <ClInclude Include="source\Bengine\Camera2D.h" />
-    <ClInclude Include="source\Bengine\Errors.h" />
-    <ClInclude Include="source\Bengine\GLSLProgram.h" />
-    <ClInclude Include="source\Bengine\GLTexture.h" />
-    <ClInclude Include="source\Bengine\ImageLoader.h" />
-    <ClInclude Include="source\Bengine\InputManager.h" />
-    <ClInclude Include="source\Bengine\IOManager.h" />
-    <ClInclude Include="source\Bengine\picoPNG.h" />
-    <ClInclude Include="source\Bengine\ResourceManager.h" />
-    <ClInclude Include="source\Bengine\Sprite.h" />
-    <ClInclude Include="source\Bengine\SpriteBatch.h" />
-    <ClInclude Include="source\Bengine\TextureCache.h" />
-    <ClInclude Include="source\Bengine\Timing.h" />
-    <ClInclude Include="source\Bengine\Vertex.h" />
-    <ClInclude Include="source\Bengine\Window.h" />
+    <ClInclude Include="LuaManager.h" />
+    <ClInclude Include="source\Burnham\Burnham.h" />
+    <ClInclude Include="source\Burnham\Camera2D.h" />
+    <ClInclude Include="source\Burnham\Errors.h" />
+    <ClInclude Include="source\Burnham\GLSLProgram.h" />
+    <ClInclude Include="source\Burnham\GLTexture.h" />
+    <ClInclude Include="source\Burnham\ImageLoader.h" />
+    <ClInclude Include="source\Burnham\InputManager.h" />
+    <ClInclude Include="source\Burnham\IOManager.h" />
+    <ClInclude Include="source\Burnham\picoPNG.h" />
+    <ClInclude Include="source\Burnham\ResourceManager.h" />
+    <ClInclude Include="source\Burnham\Sprite.h" />
+    <ClInclude Include="source\Burnham\SpriteBatch.h" />
+    <ClInclude Include="source\Burnham\TextureCache.h" />
+    <ClInclude Include="source\Burnham\Timing.h" />
+    <ClInclude Include="source\Burnham\Vertex.h" />
+    <ClInclude Include="source\Burnham\Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\Bengine\Burnham.cpp" />
-    <ClCompile Include="source\Bengine\Camera2D.cpp" />
-    <ClCompile Include="source\Bengine\Errors.cpp" />
-    <ClCompile Include="source\Bengine\GLSLProgram.cpp" />
-    <ClCompile Include="source\Bengine\ImageLoader.cpp" />
-    <ClCompile Include="source\Bengine\InputManager.cpp" />
-    <ClCompile Include="source\Bengine\IOManager.cpp" />
-    <ClCompile Include="source\Bengine\main.cpp" />
-    <ClCompile Include="source\Bengine\picoPNG.cpp" />
-    <ClCompile Include="source\Bengine\ResourceManager.cpp" />
-    <ClCompile Include="source\Bengine\Sprite.cpp" />
-    <ClCompile Include="source\Bengine\SpriteBatch.cpp" />
-    <ClCompile Include="source\Bengine\TextureCache.cpp" />
-    <ClCompile Include="source\Bengine\Timing.cpp" />
-    <ClCompile Include="source\Bengine\Window.cpp" />
+    <ClCompile Include="LuaManager.cpp" />
+    <ClCompile Include="source\Burnham\Burnham.cpp" />
+    <ClCompile Include="source\Burnham\Camera2D.cpp" />
+    <ClCompile Include="source\Burnham\Errors.cpp" />
+    <ClCompile Include="source\Burnham\GLSLProgram.cpp" />
+    <ClCompile Include="source\Burnham\ImageLoader.cpp" />
+    <ClCompile Include="source\Burnham\InputManager.cpp" />
+    <ClCompile Include="source\Burnham\IOManager.cpp" />
+    <ClCompile Include="source\Burnham\picoPNG.cpp" />
+    <ClCompile Include="source\Burnham\ResourceManager.cpp" />
+    <ClCompile Include="source\Burnham\Sprite.cpp" />
+    <ClCompile Include="source\Burnham\SpriteBatch.cpp" />
+    <ClCompile Include="source\Burnham\TextureCache.cpp" />
+    <ClCompile Include="source\Burnham\Timing.cpp" />
+    <ClCompile Include="source\Burnham\Window.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
